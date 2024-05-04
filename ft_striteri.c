@@ -1,0 +1,21 @@
+#include "libft.h"
+
+void ft_striteri(char *s, void (*f)(unsigned int,char*))
+{
+    unsigned int i;
+    void *str;
+    i= 0;
+    void *ss;
+    
+
+
+    if (!s || !f)
+        return NULL;
+    while(s[i])
+    {
+        char *str;
+        ss[i] = f(i,s[i]);
+        
+    }
+    return str;
+}
