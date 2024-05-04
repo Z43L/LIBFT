@@ -6,21 +6,11 @@
 /*   By: davmoren <davmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 17:15:41 by davmoren          #+#    #+#             */
-/*   Updated: 2024/04/16 19:49:03 by davmoren         ###   ########.fr       */
+/*   Updated: 2024/05/04 07:04:11 by davmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-int ft_isascii(unsigned char c)
+int	ft_isascii(int c)
 {
-	if (c <= 127 && c >= 0)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-
+	return (c <= 127 && c >= 0);
 }
-

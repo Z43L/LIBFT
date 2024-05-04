@@ -6,19 +6,11 @@
 /*   By: davmoren <davmoren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/08 18:43:34 by davmoren          #+#    #+#             */
-/*   Updated: 2024/04/08 18:44:16 by davmoren         ###   ########.fr       */
+/*   Updated: 2024/05/04 07:15:04 by davmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int isprint(int c)
+int	ft_isprint(int c)
 {
-    if (c <= 126 && c >= 32)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-
+	return (c <= 126 && c >= 32);
 }
